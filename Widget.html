@@ -388,7 +388,7 @@ body
             </div>
             <div id="player-content">
                 <div id="album-art">
-                    <img src="https://github.com/RENSHUZHE/Personal/blob/main/1374029.jpg" id="_1">
+                    <img src="https://raw.githubusercontent.com/RENSHUZHE/Personal/main/1374029.jpg" id="_1">
                     <div id="buffer-box">Buffering ...</div>
                 </div>
                 <div id="player-controls">
@@ -413,13 +413,12 @@ body
     </div>
 
 
-<!-- <a href="https://www.youtube.com/channel/UC7hSS_eujjZOEQrjsda76gA/videos" target="_blank" id="ytd-url">My YouTube Channel</a> -->
   
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script type="text/javascript">
     $(function()
 {
-    var playerTrack = $("#player-track"), bgArtwork = $('#bg-artwork'), bgArtworkUrl, albumName = $('#album-name'), trackName = $('#track-name'), albumArt = $('#album-art'), sArea = $('#s-area'), seekBar = $('#seek-bar'), trackTime = $('#track-time'), insTime = $('#ins-time'), sHover = $('#s-hover'), playPauseButton = $("#play-pause-button"),  i = playPauseButton.find('i'), tProgress = $('#current-time'), tTime = $('#track-length'), seekT, seekLoc, seekBarPos, cM, ctMinutes, ctSeconds, curMinutes, curSeconds, durMinutes, durSeconds, playProgress, bTime, nTime = 0, buffInterval = null, tFlag = false, albums = ['带我去找夜生活'], trackNames = [‘带我去找夜生活-告五人'], albumArtworks = ['_1'], trackUrl = ['https://github.com/RENSHUZHE/Personal/blob/main/Y2Mate.is%20-%20%E5%91%8A%E4%BA%94%E4%BA%BA%20Accusefive%E3%80%90%E5%B8%B6%E6%88%91%E5%8E%BB%E6%89%BE%E5%A4%9C%E7%94%9F%E6%B4%BB%20Night%20life.Take%20us%20to%20the%20light%E3%80%91Official%20Music%20Video-W9Fq1HC_5hg-160k-1659620621992.mp3'], playPreviousTrackButton = $('#play-previous'), playNextTrackButton = $('#play-next'), currIndex = -1;
+    var playerTrack = $("#player-track"), bgArtwork = $('#bg-artwork'), bgArtworkUrl, albumName = $('#album-name'), trackName = $('#track-name'), albumArt = $('#album-art'), sArea = $('#s-area'), seekBar = $('#seek-bar'), trackTime = $('#track-time'), insTime = $('#ins-time'), sHover = $('#s-hover'), playPauseButton = $("#play-pause-button"),  i = playPauseButton.find('i'), tProgress = $('#current-time'), tTime = $('#track-length'), seekT, seekLoc, seekBarPos, cM, ctMinutes, ctSeconds, curMinutes, curSeconds, durMinutes, durSeconds, playProgress, bTime, nTime = 0, buffInterval = null, tFlag = false, albums = ['带我去找夜生活'], trackNames = [‘带我去找夜生活-告五人'], albumArtworks = ['_1'], trackUrl = ['https://raw.githubusercontent.com/RENSHUZHE/Personal/main/Night%20life.Take%20us%20to%20the%20light%20.mp3'], playPreviousTrackButton = $('#play-previous'), playNextTrackButton = $('#play-next'), currIndex = -1;
 
     function playPause()
     {
